@@ -18,5 +18,5 @@ attr_accessor :balance :status
   end
   
   def valid
-    @status = 
+    @status == "open"  
 end
