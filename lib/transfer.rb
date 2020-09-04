@@ -1,3 +1,5 @@
 class Transfer
-  # your code here
+  
+  attr_reader :name
+  attr_accessor :
 end
