@@ -13,6 +13,10 @@ attr_accessor :balance, :status
     self.deposit += amount
   end
   
+  def withdrawal(amount)
+    self.amount += amount
+  end
+  
   def display_balance
     "Your balance is $#{self.balance}"
   end
