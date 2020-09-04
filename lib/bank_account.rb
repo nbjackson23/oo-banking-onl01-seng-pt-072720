@@ -4,7 +4,8 @@ attr_reader :name
 attr_accessor :balance :status
 
   def initialize (account_name)
-    @account = name
-    @account = account
+    @name = account_name
+    @balance = 1000
+    @status = 
     
 end
