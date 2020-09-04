@@ -7,5 +7,9 @@ attr_accessor :balance :status
     @name = account_name
     @balance = 1000
     @status = "open"
+  end
+  
+  def deposit(money)
+    @deposit += money
     
 end
