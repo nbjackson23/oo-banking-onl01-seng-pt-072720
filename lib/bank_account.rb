@@ -14,7 +14,7 @@ attr_accessor :balance, :status
   end
   
   def withdrawal(amount)
-    self.amount += amount
+    self.amount -= amount
   end
   
   def display_balance
