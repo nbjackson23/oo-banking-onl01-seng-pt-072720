@@ -1,6 +1,8 @@
 class BankAccount
-
-  def initialize (name, bank account)
+  
+attr_reader :name :account
+  def initialize (name, account)
     @name = name
-    @bank 
+    @account = account
+    
 end
