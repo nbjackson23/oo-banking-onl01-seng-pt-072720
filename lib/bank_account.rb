@@ -17,5 +17,6 @@ attr_accessor :balance :status
     "Your balance is $#{balance}"
   end
   
-  
+  def valid
+    @status = 
 end
