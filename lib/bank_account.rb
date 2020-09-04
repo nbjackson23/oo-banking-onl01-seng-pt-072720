@@ -25,8 +25,8 @@ attr_accessor :balance, :status
     self.status == "open" && self.balance > 0 ? true : false
   end
   
-  def closed_acount
-    self.status = "closed"
+  def close_acount
+    @status = "closed"
   end  
 
 end
