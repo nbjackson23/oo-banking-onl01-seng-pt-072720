@@ -11,5 +11,7 @@ attr_accessor :balance :status
   
   def deposit(money)
     @deposit += money
-    
+  end
+  
+  def balance
 end
